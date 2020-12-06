@@ -9,7 +9,7 @@ The idea of work is to:
 
 to run this code:
 - download v2.c
-- gcc -0 v2 v2.c
+- gcc -o v2 v2.c
 - ./v2
 
 For proper work and to have time to test some features getchar() is used a few times in this code. Just press any button a few times to finish it.
