@@ -27,7 +27,7 @@ static int child_fn() {
   system("sysbench --num-threads=64 --test=threads --thread-yields=100 --thread-locks=2 run");
   getchar();
 
-
+  //change loop10 by your loop number, check it by losetup -a command
   system("mount -t ext4 /dev/loop10 loopfs"); //mount virtual storage device
 
   system("df -hP loopfs/"); //check virtual device volume
